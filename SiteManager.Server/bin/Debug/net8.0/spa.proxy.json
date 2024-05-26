@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:5173",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "D:\\日野大地\\Programing\\VisualStudio\\repos\\SiteManager\\SiteManager.Server\\..\\sitemanager.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
