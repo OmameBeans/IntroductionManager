@@ -1,0 +1,47 @@
+﻿@model PostViewModel
+@{
+}
+
+<div class="wrapper">
+	@{
+		if (Model.showResult)
+		{
+			if (Model.Result.HasError)
+			{
+				<div class="message-area message-area-error">
+					@{
+						foreach (var message in Model.Result.ErrorMessages)
+						{
+							<p class="message-area-message">@message</p>
+						}
+					}
+				</div>
+			}
+			else
+			{
+				<div class="message-area message-area-success">
+					<p>登録に成功しました</p>
+				</div>
+			}
+		}
+	}
+	<div class="form-container">
+		<form asp-action="Update" method="post">
+			<div class="form-item">
+				<p class="form-item-label">
+					タイトル<span class="form-item-label-required">必須</span>
+				</p>
+				<input type="text" asp-for="Introduction.Title" placeholder="例) タイトル" class="form-item-input" id="form-item-input-title" />
+			</div>
+			<div class="form-item">
+				<p class="form-item-label">
+					URL<span class="form-item-label-required">必須</span>
+				</p>
+				<input type="text" asp-for="Introduction.Url" placeholder="例) URL" class="form-item-input" id="form-item-input-url" />
+			</div>
+			<div class="form-acctions">
+				<button type="submit" class="form-acctions-button" id="update-button">更新</button>
+			</div>
+		</form>
+	</div>
+</div>

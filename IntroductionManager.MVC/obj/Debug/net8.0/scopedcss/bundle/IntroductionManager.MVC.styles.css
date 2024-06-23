@@ -1,0 +1,217 @@
+/* _content/IntroductionManager.MVC/Views/Home/index.cshtml.rz.scp.css */
+body[b-2i7e46f023] {
+}
+
+.title-container[b-2i7e46f023] {
+    padding: 16px;
+    text-align: center;
+}
+
+.introduction-accordion-summary[b-2i7e46f023] {
+    margin-bottom: 4px;
+}
+
+.introduction-accordion[b-2i7e46f023] {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    position: relative;
+    -webkit-transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.introduction-list[b-2i7e46f023] {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.introduction-card[b-2i7e46f023] {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    padding: 16px;
+}
+
+.introduction-content[b-2i7e46f023] {
+}
+/* _content/IntroductionManager.MVC/Views/Post/index.cshtml.rz.scp.css */
+body[b-tuozv7q4xw] {
+}
+
+p[b-tuozv7q4xw] {
+    margin: 0;
+}
+
+.message-area[b-tuozv7q4xw] {
+    padding: 16px;
+    border-radius: 4px;
+    font: bold;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.message-area-success[b-tuozv7q4xw] {
+    background-color: #DDFFDD;
+    color: green;
+}
+
+.message-area-error[b-tuozv7q4xw] {
+    background-color: #FADBDA;
+    color: red;
+}
+
+.message-area-message[b-tuozv7q4xw] {
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.wrapper[b-tuozv7q4xw] {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+.form-item[b-tuozv7q4xw] {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    align-items: center;
+}
+
+.form-item-label[b-tuozv7q4xw] {
+    width: 100%;
+    max-width: 248px;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.form-item-label-required[b-tuozv7q4xw] {
+    margin-left: 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 48px;
+    display: inline-block;
+    text-align: center;
+    color: #D61F22;
+}
+
+.form-acctions[b-tuozv7q4xw] {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+}
+
+.form-acctions-button[b-tuozv7q4xw] {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    min-width: 64px;
+    padding: 6px 16px;
+    border-radius: 4px;
+    -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: #fff;
+    background-color: #1976d2;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+/* _content/IntroductionManager.MVC/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-1cmp8phn12] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-1cmp8phn12] {
+  color: #0077cc;
+}
+
+.btn-primary[b-1cmp8phn12] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-1cmp8phn12], .nav-pills .show > .nav-link[b-1cmp8phn12] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-1cmp8phn12] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-1cmp8phn12] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-1cmp8phn12] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-1cmp8phn12] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-1cmp8phn12] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+body[b-1cmp8phn12] {
+    background-color: lightgrey;
+}

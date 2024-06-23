@@ -1,0 +1,58 @@
+﻿@{
+	ViewData["Title"] = "自己紹介";
+}
+@model HomeViewModel
+
+<div class="wrapper">
+	<div class="title-container">
+		<h1>自己紹介一覧</h1>
+	</div>
+	<div class="container">
+		<details class="introduction-accordion">
+			<summary class="introduction-accordion-summary">講師</summary>
+			<div class="introduction-list">
+				@{
+					foreach (var m in Model.InstructorIntroductions)
+					{
+						<div class="introduction-card">
+							<div class="introduction-content">
+								<div>
+									<span>@m.UserId</span> &nbsp;
+									<span>@m.UserName</span>
+								</div>
+								<div>
+									<a href="@m.Url">@m.Title</a>
+								</div>
+							</div>
+							<div>
+							</div>
+						</div>
+					}
+				}
+			</div>
+		</details>
+		<details class="introduction-accordion" open>
+			<summary class="introduction-accordion-summary">新人</summary>
+			<div class="introduction-list">
+				@{
+					foreach (var m in Model.NewEmployeeIntroductions)
+					{
+						<div class="introduction-card">
+							<div class="introduction-content">
+								<div>
+									<span>@m.UserId</span> &nbsp;
+									<span>@m.UserName</span>
+								</div>
+								<div>
+									<a href="@m.Url">@m.Title</a>
+								</div>
+							</div>
+							<div>
+							</div>
+						</div>
+					}
+				}
+			</div>
+		</details>
+	</div>
+</div>
